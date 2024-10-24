@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Completo: Interatividade com JS e CSS Separados</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="../CSS/interação.css">
+</head>
+<body>
+    <h1>Página Interativa com JS Separado</h1>
+
+    <!-- Botões para trocar conteúdo -->
+    <button class="button" onclick="changeContent('texto1')">Mostrar Texto 1</button>
+    <button class="button" onclick="changeContent('texto2')">Mostrar Texto 2</button>
+
+    <!-- Div para o conteúdo dinâmico -->
+    <div id="dynamic-content">
+        <p>Clique nos botões para alterar o conteúdo abaixo.</p>
+    </div>
+
+    <!-- Botões para trocar imagens -->
+    <h2>Troca de Imagens</h2>
+    <button class="button" onclick="changeImage('imagem1')">Mostrar Imagem 1</button>
+    <button class="button" onclick="changeImage('imagem2')">Mostrar Imagem 2</button>
+
+    <!-- Imagem dinâmicamente modificada -->
+    <img id="dynamic-image" src="../img/1.png" alt="Imagem será trocada" width="300px" />
+
+    <!-- Formulário com validação -->
+    <h2>Formulário com Validação</h2>
+    <form id="contact-form" onsubmit="return validateForm()">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Link para o arquivo JS externo -->
+    <script src="../Javascript/interação.js"></script>
+</body>
+</html>

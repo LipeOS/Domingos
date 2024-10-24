@@ -1,0 +1,81 @@
+/* Estilos básicos para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o título */
+h1 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os botões */
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+/* Efeito hover nos botões */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o conteúdo dinâmico */
+#dynamic-content {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Estilo para a imagem dinâmica */
+#dynamic-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #007BFF;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}

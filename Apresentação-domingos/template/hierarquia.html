@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o tipo de documento como HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Configuração para que o site seja responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/hierarquia.css">
+    <title>Exemplo 1: Página Completa com Diversas Tags HTML</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Página de Demonstração</h1>
+        <nav>
+            <!-- Menu de navegação com links -->
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção "Sobre nós" -->
+    <section id="about">
+        <h2>Sobre nós</h2>
+        <p>Somos uma empresa dedicada a oferecer os melhores serviços de desenvolvimento web.</p>
+        <!-- Lista ordenada para destacar pontos -->
+        <ol>
+            <li>Qualidade</li>
+            <li>Comprometimento</li>
+            <li>Inovação</li>
+        </ol>
+        <!-- Exemplo de imagem com legenda -->
+        
+    </section>
+
+    <!-- Seção de serviços -->
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <!-- Lista não ordenada para serviços -->
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Design Responsivo</li>
+            <li>Otimização SEO</li>
+        </ul>
+        <!-- Exemplo de tabela -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Site Simples</td>
+                    <td>R$ 500,00</td>
+                </tr>
+                <tr>
+                    <td>Site Completo</td>
+                    <td>R$ 1500,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <!-- Formulário simples de contato -->
+        <form action="#">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
